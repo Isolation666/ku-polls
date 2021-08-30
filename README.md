@@ -14,3 +14,5 @@ The most common poll/survey questions are multiple choice, where the poll taker 
 See the [wiki](../../wiki) for more description of detail and information on ku-polls.
 
 [Vision Statement](../../wiki/Vision)
+
+[Requirements](../../wiki/Requirements)

@@ -19,4 +19,4 @@ See the [wiki](../../wiki) for more description of detail and information on ku-
 
 ## Iterations
 
-[Iteration 1](../../wiki/Iteration 1)
+[Iteration 1](../../wiki/Iteration-1-Plan)

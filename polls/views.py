@@ -1,11 +1,9 @@
 from django.http import HttpResponse, HttpResponseRedirect
-from django.http import Http404
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
-from django.views import generic
 from django.utils import timezone
-
 from .models import Choice, Question
+from django.views import generic
 
 
 class IndexView(generic.ListView):
@@ -38,6 +36,7 @@ class ResultsView(generic.DetailView):
     template_name = 'polls/results.html'
 
 
+
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     try:
@@ -55,3 +54,10 @@ def vote(request, question_id):
         # with POST data. This prevents data from being posted twice if a
         # user hits the Back button.
         return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
+
+def allowed(request, pk):
+    question = get_object_or_404(Question, pk=pk)
+    if question.can_vote():
+        return HttpResponseRedirect(reverse('polls:detail', args=(question.id,)))
+    else:
+        return HttpResponseRedirect(reverse('polls:index'))

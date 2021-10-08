@@ -1,4 +1,5 @@
 [![Build Status](https://app.travis-ci.com/Isolation666/ku-polls.svg?branch=main)](https://app.travis-ci.com/Isolation666/ku-polls)
+[![codecov](https://codecov.io/gh/Isolation666/ku-polls/branch/main/graph/badge.svg?token=418M70JO21)](https://codecov.io/gh/Isolation666/ku-polls)
 
 # KU Polls
 

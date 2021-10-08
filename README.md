@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/Isolation666/ku-polls.svg?branch=main)](https://app.travis-ci.com/Isolation666/ku-polls)
+
 # KU Polls
 
 A web application for conducting polls at [Kasetsart University](https://www.ku.ac.th).

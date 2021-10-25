@@ -26,4 +26,4 @@ See the [wiki](../../wiki) for more description of detail and information on ku-
 
 [Iteration 2](../../wiki/Iteration-2-Plan)
 
-[Iteration 3]()
+[Iteration 3](../../wiki/Iteration-3-Plan)
